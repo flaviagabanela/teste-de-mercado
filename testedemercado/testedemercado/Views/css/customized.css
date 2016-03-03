@@ -1,0 +1,39 @@
+﻿header .header-co
+ntent .header-content-inner h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #f05f40;
+}
+
+header .header-content .header-content-inner h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #f05f40;
+}
+
+header .header-content .header-content-inner p {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 80%;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.container-fluid{
+	background: black;
+	opacity:0.6;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+	font-size: 16px;
+}
+
+.imgClass{
+	width:600px;
+	height:300px
+}

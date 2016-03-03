@@ -67,6 +67,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Views\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Views\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Views\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Views\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Views\img\estantedelivros.jpg" />
+    <Content Include="Views\img\portfolio\livromar.jpg" />
+    <Content Include="Views\less\creative.less" />
+    <Content Include="Views\less\mixins.less" />
+    <Content Include="Views\less\variables.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,11 +84,32 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\css\animate.min.css" />
+    <Content Include="Views\css\bootstrap.css" />
+    <Content Include="Views\css\bootstrap.min.css" />
+    <Content Include="Views\css\creative.css" />
+    <Content Include="Views\css\customized.css" />
+    <Content Include="Views\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Views\Index.html" />
+    <Content Include="Views\js\bootstrap.js" />
+    <Content Include="Views\js\bootstrap.min.js" />
+    <Content Include="Views\js\cbpAnimatedHeader.js" />
+    <Content Include="Views\js\classie.js" />
+    <Content Include="Views\js\creative.js" />
+    <Content Include="Views\js\jquery.easing.min.js" />
+    <Content Include="Views\js\jquery.fittext.js" />
+    <Content Include="Views\js\jquery.js" />
+    <Content Include="Views\js\wow.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\font\css\" />
+    <Folder Include="Views\font\fonts\" />
+    <Folder Include="Views\font\less\" />
+    <Folder Include="Views\font\scss\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
