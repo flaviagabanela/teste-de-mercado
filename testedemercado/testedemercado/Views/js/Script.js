@@ -24,20 +24,51 @@ function add() {
 	txtNeg = document.getElementById("txtNeg").value;
 	meuSelect = document.getElementById("meuSelect");
 
+	var cod = txtCod;
+	var cat = txtCat;
 	var nome = txtNome;
+	var qtd = txtQtd;
+	var valor = txtValor;
+	var tipo = txtNeg;
+
+	if (cod.length === 0) {
+		alert("Código inválido!");
+		return;
+	}
+
+	if (cat.length === 0) {
+		alert("Categoria inválido!");
+		return;
+	}
 
 	if (nome.length === 0) {
 		alert("Nome inválido!");
 		return;
 	}
 
+	if (qtd.length === 0) {
+		alert("Quantidade inválido!");
+		return;
+	}
+
+	if (valor.length === 0) {
+		alert("Valor inválido!");
+		return;
+	}
+
+	if (tipo.length === 0) {
+		alert("Negócio inválido!");
+		return;
+	}
+
 	var opt = document.createElement("option");
-	opt.textContent = nome;
+	opt.textContent = cod + "-" + nome + "-" + valor + "-" + tipo;
 
 	meuSelect.appendChild(opt);
+	
 };
 
-btnRem.onclick = function () {
+function remover() {
 	if (meuSelect.selectedIndex < 0) {
 		alert("Não há item selecionado")
 		return;
