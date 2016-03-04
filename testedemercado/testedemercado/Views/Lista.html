@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Negocie!!!</title>
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<!-- Custom Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+	<!-- Plugin CSS -->
+	<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/creative.css" type="text/css">
+	<!-- Customizado CSS -->
+	<link rel="stylesheet" href="css/customized.css" type="text/css">
+
+	<script src="js/Script.js"></script>
+
+	<style>
+		#txtCod {
+			width: 385px;
+		}
+
+		#txtCat {
+			width: 385px;
+		}
+
+		#txtTitulo {
+			width: 385px;
+		}
+
+		#txtQta {
+			width: 385px;
+		}
+
+		#txtPreco {
+			width: 385px;
+		}
+
+		#txtNeg {
+			width: 385px;
+		}
+
+		.centralize {
+			margin-left: 135px;
+			margin-top: 10px;
+		}
+
+		#btnAdd{
+			padding: 6px 8px;
+			font-size: 10px;
+			
+		}
+
+		#btnRem{
+			padding: 6px 8px;
+			font-size: 10px;
+			margin-top: 10px;
+			
+		}
+
+		option{
+			color:black;
+		}
+		
+	</style>
+
+
+
+
+</head>
+<body>
+	<header>
+		<div class="navbar-header">
+			<div id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<div class="well well-sm centralize" >
+								<div class="form-horizontal">
+									<fieldset>
+										<legend class="text-center">Negocie</legend>
+										<div class="form-group">
+											<div class="col-md-9">
+												<input id="txtCod" name="cod" type="text" placeholder="Digite o codigo" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-9">
+												<input id="txtCat" name="cat" type="text" placeholder="Digite a categoria" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-9">
+												<input id="txtTitulo" name="titulo" type="text" placeholder="Digite o título do livro" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-9">
+												<input id="txtQta" name="qta" type="text" placeholder="Digite a quantidade" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-9">
+												<input id="txtPreco" name="preco" type="text" placeholder="Digite o preço" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-9">
+												<input id="txtNeg" name="neg" type="text" placeholder="Digite o tipo de negócio" class="form-control">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="col-md-12 text-right">
+												<button type="submit" class="btn btn-primary btn-lg" id="btnAdd" onclick="add()">Adicionar</button>
+											</div>
+										</div>
+										<div>
+											<select id="meuSelect" size="7" style="width: 350px;"></select>
+										</div>
+										<div class="form-group">
+											<div class="col-md-12 text-right">
+												<button type="submit" class="btn btn-primary btn-lg" id="btnRem" onclick="validar()">Remover</button>
+											</div>
+										</div>
+									</fieldset>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/wow.min.js"></script>
+	<!-- Custom Theme JavaScript -->
+	<script src="js/creative.js"></script>
+
+</body>
+</html>
